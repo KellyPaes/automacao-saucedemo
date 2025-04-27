@@ -12,8 +12,6 @@ Page Object Model (POM)
 
 📁 Estrutura do Projeto
 java
-Copiar
-Editar
 automacao-auvo/
 ├── .vscode/               → Configurações do VSCode (opcional)
 ├── node_modules/          → Dependências instaladas
@@ -33,49 +31,33 @@ automacao-auvo/
 1. Clonar o Repositório
 
 bash
-Copiar
-Editar
-git clone https://github.com/KellyPaes/automacao-saucedemo
-cd automacao-auvo
 git clone https://github.com/KellyPaes/automacao-saucedemo
 cd saucedemo-tests
 2. Instalar Dependências
 
 bash
-Copiar
-Editar
 npm install
 3. Instalar os Navegadores do Playwright
 
 bash
-Copiar
-Editar
 npx playwright install
 4. Executar os Testes
 
 Modo headless (sem abrir navegador):
 
 bash
-Copiar
-Editar
 npm run test
 Modo visual (com navegador aberto):
 
 bash
-Copiar
-Editar
 npm run test:headed
 Modo debug (passo a passo):
 
 bash
-Copiar
-Editar
 npm run test:debug
 5. Gerar Relatório HTML
 
 bash
-Copiar
-Editar
 npm run report
 🔐 Credenciais de Acesso
 Usuário: standard_user
@@ -113,8 +95,6 @@ Código otimizado, sem pausas artificiais.
 ⚠️ Observação: Se ao rodar npx playwright show-report aparecer erro de "porta já em uso", execute:
 
 bash
-Copiar
-Editar
 npx playwright show-report --port=9324
 💬 Observações Finais
 Para debug manual, utilize npm run test:debug.
