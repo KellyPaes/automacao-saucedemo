@@ -30,7 +30,7 @@ saucedemo-tests/
 bash
 Copiar
 Editar
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/KellyPaes/automacao-saucedemo
 cd saucedemo-tests
 2. Instalar Dependências
 bash
@@ -113,4 +113,4 @@ As ações de validação garantem a execução completa e correta do fluxo de c
 
 
 📎 Repositório
-🔗 [Insira aqui o link do seu GitHub]
+🔗 [https://github.com/KellyPaes]
