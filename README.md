@@ -37,6 +37,8 @@ Copiar
 Editar
 git clone https://github.com/KellyPaes/automacao-saucedemo
 cd automacao-auvo
+git clone https://github.com/KellyPaes/automacao-saucedemo
+cd saucedemo-tests
 2. Instalar Dependências
 
 bash
