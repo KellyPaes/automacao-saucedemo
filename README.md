@@ -1,17 +1,21 @@
 🧪 Desafio Auvo - Automação com Playwright
-Projeto de automação de testes web para validar o fluxo de compra no e-commerce fictício SauceDemo, utilizando Playwright com JavaScript e arquitetura Page Object Model (POM).
+
+Projeto de automação de testes web para validar o fluxo de compra no e-commerce fictício **SauceDemo**, utilizando **Playwright** com **JavaScript** e arquitetura **Page Object Model (POM)**.
+
+---
 
 📚 Tecnologias Utilizadas
-Playwright
 
-JavaScript (ESM)
+- Playwright
+- JavaScript (ESM)
+- Node.js
+- Page Object Model (POM)
 
-Node.js
-
-Page Object Model (POM)
+---
 
 📁 Estrutura do Projeto
-java
+
+```plaintext
 automacao-auvo/
 ├── .vscode/               → Configurações do VSCode (opcional)
 ├── node_modules/          → Dependências instaladas
@@ -27,41 +31,34 @@ automacao-auvo/
 ├── package.json           → Dependências e scripts de execução
 ├── playwright.config.js   → Configurações do Playwright
 └── README.md              → Documentação do projeto
+
 🚀 Como Rodar o Projeto
+
 1. Clonar o Repositório
-
-bash
 git clone https://github.com/KellyPaes/automacao-saucedemo
-cd saucedemo-tests
+cd automacao-auvo
+
 2. Instalar Dependências
-
-bash
 npm install
+
 3. Instalar os Navegadores do Playwright
-
-bash
 npx playwright install
+
 4. Executar os Testes
-
 Modo headless (sem abrir navegador):
-
-bash
 npm run test
+
 Modo visual (com navegador aberto):
-
-bash
 npm run test:headed
+
 Modo debug (passo a passo):
-
-bash
 npm run test:debug
-5. Gerar Relatório HTML
 
-bash
+5. Gerar Relatório HTML
 npm run report
+
 🔐 Credenciais de Acesso
 Usuário: standard_user
-
 Senha: secret_sauce
 
 🧱 Fluxo Automatizado
@@ -93,13 +90,7 @@ Relatórios HTML gerados automaticamente.
 Código otimizado, sem pausas artificiais.
 
 ⚠️ Observação: Se ao rodar npx playwright show-report aparecer erro de "porta já em uso", execute:
-
-bash
 npx playwright show-report --port=9324
-💬 Observações Finais
-Para debug manual, utilize npm run test:debug.
-
-As validações garantem a execução correta do fluxo de compra.
 
 📎 Repositório
 🔗 https://github.com/KellyPaes/automacao-saucedemo
